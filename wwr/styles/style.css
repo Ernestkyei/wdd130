@@ -1,13 +1,16 @@
 #content{
     margin-right: 0 auto;
     margin-left: 0 auto;
+  
 }
 
 nav a{
     text-align: center;
 }
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+
 }
 .button-box{
     text-align: center;
@@ -21,28 +24,41 @@ h2{
 }
 
 #background{
-    height: 725px;
-    background-color: burlywood;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: 200px;
+    background-color: #d9c2a3;
 }
-
 
 body {
     background-color: #fcfbfb; 
 }
+
 header {
     background-color:rgba(20,30,13, .7);
+
 }
+
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
+    border-radius: 5px;
+    width: 10%;
+    height: 10%;
 }
 
 #logo img{
     width: 80px;
+
 }
 
 .icon{
-    width: 80px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 10px solid #d9c2a3;
 
 }
 
@@ -51,10 +67,15 @@ nav a{
     text-decoration: none;
     color: #fcfbfb;
     text-align: center;
+    padding: 35px;
+
 }
 
 .book, .join{
     text-decoration:none;
+    padding: 15px, 30px;
+    color: #d9c2a3;
+    margin-top: 50px;
 }
 
 footer a{
@@ -64,20 +85,54 @@ footer a{
 
 .footer-1{
 font-size: 1.2em;
-background-color: burlywood;
+padding: 25px 50px;
+background-color: #d9c2a3;
 }
 
 
 footer p a:hover{
     text-decoration: none;
+    background-color: #d9c2a3;
 }
 
 
 #Lov{
-    background-color: burlywood;
+    background-color: #d9c2a3;
 }
 
 #Lov h2, p{
-    background-color: burlywood;
+    background-color:#d9c2a3;
+}
+
+#hero-img{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.home-title{
+font-family:'Rock Salt', 'Bradley Hand', sans-serif;
+font-size:20px;
+color: #d9c2a3;
+
 
 }
+
+main section .img {
+    box-sizing: border-box;
+}
+
+.camping-card{
+    border-radius:30px solid #fcfbfb s;
+    
+}
+
+h2, .Enjoy{
+    color: #fcfbfb;
+}
+
+
+.home-title{
+    margin-top: 50px;
+}
+
