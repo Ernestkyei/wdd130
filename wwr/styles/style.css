@@ -77,7 +77,11 @@ nav a{
     width: 100%;
 } 
 
-
+.main.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+  
 
 .rivers-card{
     display: grid;
@@ -89,7 +93,7 @@ nav a{
 
 
 .camping-card{
-    
+
 }
 
 #hero-msg h1, #hero-msg h4{
