@@ -12,6 +12,7 @@
 header{
     display: grid;
     grid-template-columns: 150px auto;
+  
 }
 
 nav{
@@ -25,19 +26,20 @@ nav a{
     color: #fcfbfb;
     text-align: center;
     padding: 35px;
+    font-size: 20px;
 
 }
 
 #hero-img{
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 90%;
     
    
 }
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100;
+    margin-top: -100px;
 }
  
 #hero-msg {
@@ -52,6 +54,7 @@ nav a{
     z-index: -1;
 }
     
+
 
 
 #hero-box{
@@ -72,8 +75,11 @@ nav a{
 }
 
 
+.book{
+    font-size: 20px;
+}
 
-.camping-card  .mountain{
+.camping-card {
     width: 100%;
 } 
 
@@ -98,11 +104,21 @@ nav a{
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-size: 3em;
+
 
 }
-.button-box{
+
+.button-box {
     text-align: center;
+    margin: 5px;
+   
+    
+
+    
 }
+
+
 main section{
     text-align: center;
 }
@@ -223,3 +239,20 @@ h2, .Enjoy{
     margin-top: 50px;
 }
 
+
+@media screen and (max-width: 900px){
+    #hero,  .home-grid{
+        display: block;
+        height: auto;
+    }
+
+    nav, footer{
+        flex-direction: column;
+    }
+    
+}
+
+nav a{
+    display: block;
+    padding: 30px;
+}
