@@ -185,27 +185,27 @@ footer a{
     text-decoration: none;
 }
 
-
+/* 
 .footer-1{
 font-size: 1.2em;
 padding: 25px 50px;
 background-color: #d9c2a3;
-}
+} */
 
 
-footer p a:hover{
+/* footer p a:hover{
     text-decoration: none;
     background-color: #d9c2a3;
-}
+} */
 
 
-#Lov{
+/* #Lov{
     background-color: #d9c2a3;
 }
 
 #Lov h2, p{
     background-color:#d9c2a3;
-}
+} */
 
 #hero-img{
     display: block;
@@ -226,13 +226,10 @@ main section .img {
 }
 
 .camping-card{
-    border-radius:30px solid #fcfbfb s;
+    border-radius:30px solid #fcfbfb ;
     
 }
 
-h2, .Enjoy{
-    color: #fcfbfb;
-}
 
 
 .home-title{
@@ -250,5 +247,26 @@ h2, .Enjoy{
         flex-direction: column;
     }
     
+}
+
+footer{
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+p, a{
+  color: #d9c2a3;
+
+}
+
+
+.footer-1{
+    flex-direction: column;
+
 }
 
