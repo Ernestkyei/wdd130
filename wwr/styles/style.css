@@ -85,7 +85,7 @@ nav a{
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
   
@@ -273,3 +273,18 @@ p, a{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
 }
+
+#background{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-gap: 10px;
+}
+
+.background-element {
+    grid-column: 1 / span 11; /* This spans from column lines 1 to 11 */
+    grid-row: 4 / span 6; /* This spans from row lines 4 to 9 */
+    background-color: #f2f2f2; /* Set the background color */
+    /* Add more styles as needed for your background element */
+}
+
