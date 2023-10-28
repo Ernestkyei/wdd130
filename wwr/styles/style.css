@@ -45,7 +45,7 @@ nav a{
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #hero-box {
@@ -83,9 +83,10 @@ nav a{
     width: 100%;
 } 
 
-.main.home-grid {
+.home-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
   }
   
 
@@ -97,10 +98,6 @@ nav a{
 
 
 
-
-.camping-card{
-
-}
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -245,8 +242,24 @@ p, a{
 }
 
 
-.footer-1{
-    flex-direction: column;
 
+
+.card-img {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
+.msg {
+    background-color: #6f7364;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
