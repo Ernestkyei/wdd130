@@ -263,3 +263,13 @@ p, a{
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+.rapids-card {
+   
+    background-color: #f2f2f2; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
