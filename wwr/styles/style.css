@@ -188,6 +188,7 @@ footer a{
     display: block;
     margin-left:auto;
     margin-right:auto;
+    width: 140%;
 }
 
 .home-title{
@@ -281,10 +282,4 @@ p, a{
     grid-gap: 10px;
 }
 
-.background-element {
-    grid-column: 1 / span 11; /* This spans from column lines 1 to 11 */
-    grid-row: 4 / span 6; /* This spans from row lines 4 to 9 */
-    background-color: #f2f2f2; /* Set the background color */
-    /* Add more styles as needed for your background element */
-}
 
