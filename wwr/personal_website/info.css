@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    min-height: 100vh;
+}
+
+
+.aboutus{
+    background-color: whitesmoke;
+}
+
+
+.aboutus img{
+    width: 100%;
+    height: 500px;
+}
+
+.aboutus p{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 200px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px;
+   
+    gap: 20px;
+}
+
+.message{
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.second{
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.last{
+    background-color: lightskyblue;
+    height: 50px;
+
+}
+
+footer p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
