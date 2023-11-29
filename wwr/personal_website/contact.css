@@ -9,6 +9,16 @@ body{
     min-height: 100vh;
 }
 
+button{
+    margin-left:90%; 
+    height: 40px;
+    width: 80px;
+    background-color: lightskyblue;
+ }
+ 
+ button a{
+     text-decoration: none;
+ }
 
 
 .image-1{
