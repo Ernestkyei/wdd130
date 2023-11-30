@@ -44,7 +44,7 @@ p{
 .team{
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 .title{
      border-radius: 10px;
@@ -59,7 +59,7 @@ h4{
     margin-left: 90px;
 }
 
-h3{
+.name{
     font-size: 15px;
     margin-left: 130px;
 }
@@ -84,7 +84,3 @@ footer,h1{
     margin-top: auto;
 }
 
-
-h1{
-    font-size: 20px;
-}

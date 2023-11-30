@@ -71,14 +71,17 @@ ul i{
 
 .last{
     background-color: lightskyblue;
-    height: 50px;
+  padding: 10px;
 
 }
 
-footer p{
-    font-size: 20px;
-    color: white;
+
+.footer-1{
+    text-align: center;  
+}
+
+footer, h3{
     text-align: center;
-    margin: 50px;
-    padding: 10px;
+    color: white;
+    font-size: 20px;
 }

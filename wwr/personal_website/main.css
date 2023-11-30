@@ -1,125 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    
-    background-color: whitesmoke;
-    min-height: 100vh;
+  background-color: whitesmoke;
+  min-height: 100vh;
 }
 
 .hero {
-    width: 100%;
-    height: 100vh;
-    
+  width: 100%;
+  height: 100vh;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 200px;
-    background-color: lightblue;
-    height: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 200px;
+  background-color: lightblue;
+  height: 10px;
 }
 
 .nav .link ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
 }
 
 .nav .link ul a {
-    text-decoration: none;
-    color: #2a2a2a;
-    font-weight: bolder;
-    border-left: 1px solid #2a2a2a;
-    border-right:1px solid   #2a2a2a;
-    margin: 5px;
-    padding: 5px;
-
- 
+  text-decoration: none;
+  color: #2a2a2a;
+  font-weight: bolder;
+  border-left: 1px solid #2a2a2a;
+  border-right: 1px solid #2a2a2a;
+  margin: 5px;
+  padding: 5px;
 }
 
-.logo1{
-    height: 4rem;
-    margin-right: 2 0px;
-    
+.logo1 {
+  height: 4rem;
+  margin-right: 20px;
 }
 
-.below-nav{
-    width: 100%;
+.below-nav {
+  width: 100%;
 }
 
-.logo1{
-    border-radius: 20px;
+.logo1 {
+  border-radius: 20px;
 }
 
-.link ul li a:hover{
-        background-color: aliceblue;
-        height: 10rem;
+.link ul li a:hover {
+  background-color: aliceblue;
+  height: 10rem;
 }
 
-
-p{
-    font-size: 25px;
-    font-family: "Montserrate";
-    padding: 10px;
-    margin: auto;
-
+p {
+  font-size: 25px;
+  font-family: "Montserrate";
+  padding: 10px;
+  margin: auto;
 }
 
-.first-picture{
-    margin: 20px;
-    border-radius: 10px;
+.first-picture {
+  margin: 20px;
+  border-radius: 10px;
 }
 
-/* .message-1 p{
-    font-size: 15px;
-    margin-top: 40px;
-} */
+.main {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px;
+  margin-top: auto;
+  background-color: whitesmoke;
+}
 
-.main{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin: 20px;
-    margin-top: auto;
-    background-color: whitesmoke;
+.second {
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.message-2 {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.last {
+  padding: 10px;
+  background-color: lightskyblue;
   
 }
 
-
-.second{
-    border-radius: 10px;
-    margin: 20px;
+footer,h5 {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  margin-top: auto;
 }
-
-.message-2{
-    font-size: 15px;
-    margin-top: 20px;
-}
-
-
-.last{
-    background-color:  lightskyblue;
-    height: 50px;
-    
-}
-
-footer{
-    font-size: 20px;
-    text-align: center;
-    color: white;
-}
-
-footer p{
-    padding: 10px;
-    margin-top: auto;
-}
-
