@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 40px 200px;
-  background-color: lightblue;
+  background-color: #0582CA;
   height: 10px;
 }
 
@@ -64,8 +64,8 @@ body {
 }
 
 p {
-  font-size: 25px;
-  font-family: "Montserrate";
+  font-size: 20px;
+
   padding: 10px;
   margin: auto;
 }
@@ -95,7 +95,7 @@ p {
 
 .last {
   padding: 10px;
-  background-color: lightskyblue;
+  background-color: #0582CA;
   
 }
 
@@ -104,4 +104,9 @@ footer,h5 {
   text-align: center;
   color: white;
   margin-top: auto;
+}
+
+
+.logos{
+  border-radius: 70px;
 }
