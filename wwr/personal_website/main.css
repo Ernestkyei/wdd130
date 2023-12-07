@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto';
 }
 
 
@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 40px 200px;
-  background-color: #0582CA;
+  background-color: #f5ef51;
   height: 10px;
 }
 
@@ -43,6 +43,7 @@ body {
   border-right: 1px solid #2a2a2a;
   margin: 5px;
   padding: 5px;
+  color: #1ec276;
 }
 
 .logo1 {
@@ -95,7 +96,7 @@ p {
 
 .last {
   padding: 10px;
-  background-color: #0582CA;
+  background-color: #7aedd7;
   
 }
 
