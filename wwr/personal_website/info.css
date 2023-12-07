@@ -15,6 +15,9 @@ body{
   height: 520px;
 }
 
+.message{
+  color: #0077b6;
+}
 
 .main{
   display: grid;

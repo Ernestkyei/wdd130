@@ -58,14 +58,20 @@ body {
   border-radius: 20px;
 }
 
+
+.message-1, .message-2{
+  color: #0077b6;
+}
+
 .link ul li a:hover {
   background-color: aliceblue;
   height: 10rem;
 }
 
+
 p {
   font-size: 20px;
-  color: #1ec276;
+  color: ;
   padding: 10px;
   margin: auto;
 }
