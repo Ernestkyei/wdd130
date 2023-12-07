@@ -32,6 +32,8 @@ body{
 
 .home-page{
   float: right;
+  color: #f5ef51;
+  font-size: 20px;
 
 
 }
@@ -68,24 +70,20 @@ footer{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
-  color: white;
+  color: #1ec276;
 }
-
-
-
-
-
-
 
 
 p{
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto';
+
 }
 
 .main-para{
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
+  color: #7aedd7;
 }
 
 ul li{
@@ -93,7 +91,6 @@ ul li{
   font-family: 'Times New Roman', Times, serif;
   margin: 20px;
 }
-
 
 
 
