@@ -17,6 +17,11 @@
   text-align: center;
 }
 
+.right-corner{
+  margin-left: 90%;
+  text-decoration: none;
+}
+
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -68,8 +73,13 @@
   cursor: pointer;
 }
 
+.message{
+  margin-right: 20px;
+}
 
-
+.message ul li{
+  margin-right: 200px;
+}
 
 
 
