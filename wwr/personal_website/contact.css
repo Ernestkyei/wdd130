@@ -25,6 +25,7 @@ body{
 .image-1{
     width: 100%;
     height: 500px;
+   
 
 }
 
@@ -41,7 +42,7 @@ p{
 
 .team{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     margin: auto;
     margin-top: 50px;
     gap: 50px;
@@ -56,11 +57,24 @@ p{
 
 h4{
     font-size: 20px;
-    margin-left: 90px;
+    margin-left: 50px;
     color: #0582CA;
 }
 
+.mobile{
+  margin-left: 10px;
+  cursor: pointer;
+}
 
+.web{
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+.team-info{
+  color: #0582CA;
+}
 
 .name{
     font-size: 15px;
@@ -68,6 +82,11 @@ h4{
     color: grey;
 }
 
+h3{
+  color: #0582CA;
+  margin: 15px;
+  font-family: 'Roboto';
+}
 
 .div-1{
     height: 10px;
